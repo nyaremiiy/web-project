@@ -1,0 +1,22 @@
+.header {
+  background-color: var(--color-dark-bg);
+  .header__wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    .header__logo {
+        display: block;
+        max-width: 206px;
+        width: 100%;
+    }
+
+    .header__menu {
+      display: none;
+    }
+
+    .header__social-list {
+      display: none;
+    }
+  }
+}
