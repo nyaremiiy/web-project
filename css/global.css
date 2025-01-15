@@ -6,6 +6,14 @@
   box-sizing: border-box;
 }
 
+:root {
+    --font-main: 'Graphik', sans-serif;
+}
+
+body {
+    font-family: var(--font-main);
+}
+
 img {
   display: block;
   max-width: 100%;
