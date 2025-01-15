@@ -7,11 +7,19 @@
 }
 
 :root {
-    --font-main: 'Graphik', sans-serif;
+  --font-main: "Graphik", sans-serif;
+  --color-primary: #2091f9;
+  --color-light-text: #fff;
+  --color-text: #252B42;
+  --color-second-text: #374754;
+  --color-dark-bg: #252B42;
+  --input-placeholder-color: #18171D;
+  --color-silver: #F4F4F4;
+  --color-border: #D8D8D8;
 }
 
 body {
-    font-family: var(--font-main);
+  font-family: var(--font-main);
 }
 
 img {
