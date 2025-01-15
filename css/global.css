@@ -10,16 +10,20 @@
   --font-main: "Graphik", sans-serif;
   --color-primary: #2091f9;
   --color-light-text: #fff;
-  --color-text: #252B42;
+  --color-text: #252b42;
   --color-second-text: #374754;
-  --color-dark-bg: #252B42;
-  --input-placeholder-color: #18171D;
-  --color-silver: #F4F4F4;
-  --color-border: #D8D8D8;
+  --color-dark-bg: #252b42;
+  --color-light-bg: #fff;
+  --input-placeholder-color: #18171d;
+  --color-silver: #f4f4f4;
+  --color-border: #d8d8d8;
 }
 
 body {
+  background-color: var(--color-light-bg);
   font-family: var(--font-main);
+  color: var(--color-second-text);
+  overflow-x: hidden;
 }
 
 img {
@@ -33,4 +37,11 @@ ul {
 
 a {
   text-decoration: none;
+}
+
+.container {
+  width: 100%;
+  max-width: 1248px;
+  padding: 0 24px;
+  margin: 0 auto;
 }
