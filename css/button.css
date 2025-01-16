@@ -1,0 +1,15 @@
+.button-primary {
+  transition: var(--transition-primary);
+  color: var(--color-button-text);
+  background-color: var(--color-button-bg);
+  border-radius: 35px;
+  padding: 16px 10px;
+  min-width: 236px;
+  white-space: nowrap;
+  cursor: pointer;
+
+  &:hover {
+    box-shadow: 0 4px 15px rgba(32, 145, 249, 0.5);
+    transform: translateY(-2px);
+  }
+}

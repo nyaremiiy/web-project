@@ -7,6 +7,7 @@
 }
 
 :root {
+  --transition-primary: all 0.2s linear;
   --font-main: "Graphik", sans-serif;
   --color-primary: #2091f9;
   --color-light-text: #fff;
@@ -18,6 +19,8 @@
   --color-silver: #f4f4f4;
   --color-border: #d8d8d8;
   --color-white: #fff;
+  --color-button-text: #fff;
+  --color-button-bg: #2091f9;
 }
 
 body {
@@ -38,6 +41,11 @@ ul {
 
 a {
   text-decoration: none;
+}
+
+button {
+  outline: none;
+  border: none;
 }
 
 .container {
