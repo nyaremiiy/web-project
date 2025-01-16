@@ -1,5 +1,9 @@
 .header {
-  background-color: var(--color-dark-bg);
+  background-color: transparent;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
   .header__wrapper {
     display: flex;
     align-items: center;

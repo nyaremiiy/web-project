@@ -1,0 +1,38 @@
+.hero {
+  background-image: url("./../img/hero-bg.png");
+  background-size: cover;
+  background-position: 50%;
+  .hero__wrapper {
+    text-align: center;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    .hero__title {
+      font-weight: 400;
+      font-size: 3rem;
+      letter-spacing: 0.2px;
+      line-height: 1.15;
+      color: var(--color-light-text);
+
+      @media (min-width: 768px) {
+        font-weight: 700;
+        font-size: 4.62rem;
+      }
+    }
+
+    .hero__description {
+      margin-top: 18px;
+      color: var(--color-light-text);
+      font-size: 1.75rem;
+      line-height: 1.42;
+      font-weight: 300;
+    }
+
+    .hero__button {
+      margin-top: 60px;
+    }
+  }
+}
